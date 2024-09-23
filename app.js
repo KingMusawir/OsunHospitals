@@ -1,6 +1,8 @@
 const express = require('express');
 const morgan = require('morgan');
 const cors = require('cors');
+const swaggerUi = require('swagger-ui-express');
+const swaggerSpec = require('./swagger');
 
 const hospitalRoutes = require('./routes/hospitalRoutes');
 const AppError = require('./utils/appError');
@@ -22,6 +24,9 @@ app.use((req, res, next) => {
 if (process.env.NODE_ENV === 'development') {
   app.use(morgan('dev'));
 }
+
+// SERVER SWAGGER UI
+app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 
 // ROUTES
 app.use('/api/v1/hospitals', hospitalRoutes);
