@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Ajebandele Primary Health Centre",
+    "operatingHours": "24hrs",
+    "location": {
+      "address": "Amuye street ajebamidele",
+      "lga": "Atakumosa East",
+      "coordinates": [4.70781, 7.40664]
+    },
+    "phone": "0813-341-2120"
+  },
+  {
+    "name": "Atorin Primary Hearth Centre",
+    "operatingHours": "24hrs",
+    "location": {
+      "address": "Amuye street ajebamidele",
+      "lga": "Atakumosa East",
+      "coordinates": [4.70781, 7.40664]
+    },
+    "phone": "0813-341-2120"
+  },
+  {
+    "name": "Ayegunle-Olowu Primary Health Centre",
+    "operatingHours": "24hrs",
+    "location": {
+      "address": "Amuye street ajebamidele",
+      "lga": "Atakumosa East",
+      "coordinates": [4.70781, 7.40664]
+    },
+    "phone": "0813-341-2120"
+  },
+  {
+    "name": "Ayinrin Adedeji Primary Health Centre",
+    "operatingHours": "24hrs",
+    "location": {
+      "address": "Amuye street ajebamidele",
+      "lga": "Atakumosa East",
+      "coordinates": [4.70781, 7.40664]
+    },
+    "phone": "0813-341-2120"
+  }
+]
